@@ -13,23 +13,24 @@ int main(){
     printf("your third value :");
     scanf("%d" ,&c);
 
-   if (a<b)
-   {
-    if (a<c)
+    if (a<b)
     {
-        printf("first number is minimum :%d",a);
+      if (a<c)
+      {
+        printf("your value is first mimnimum :%d", a);
+      }else{
+        printf("your value is third mimnimum :%d", c);
+      }
     }else{
-        printf("third number is minimum :%d",c);
-    }
-   }else{
-    if (b<c)
-    {
-        printf("secound number is minimum :%d",b);
-    }else{
-         printf("third number is minimum :%d",c);
+        if (b<c)
+      {
+        printf("your value is secound mimnimum :%d", b);
+      }else{
+        printf("your value is third mimnimum :%d", c);
+      }
     }
     
-   }
+
    
     
     
